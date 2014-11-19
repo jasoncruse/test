@@ -4,3 +4,4 @@ new line new word
 commit ea34578d5496d7dd233c827ed32a8cd576c5ee85
 the third change file
 https://github.com/jasoncruse/test.git
+change on the other branch
