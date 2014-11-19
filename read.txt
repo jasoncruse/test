@@ -6,3 +6,4 @@ the third change file
 https://github.com/jasoncruse/test.git
 change on the other branch
 add some content on the master
+change on the other branch, then change the content.
