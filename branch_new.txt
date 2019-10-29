@@ -1,1 +1,2 @@
-this is a test branch file
+this is a test branch file.
+second new line
