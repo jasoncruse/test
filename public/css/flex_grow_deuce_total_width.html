@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒布局测试</title>
+    <style>
+        div#container { display: flex; width: 600px; height: 300px; }
+        div#a, div#b, div#c { flex-grow: 1; width: 150px; }
+        div#a { background-color: orange; }
+        div#b { background-color: yellow; flex-grow: 3; }
+        div#c { background-color: limegreen; }
+    </style>
+</head>
+<body>
+<div id='container'>
+    <div id='a'>注意：对于中文网页需要使用声明编码，否则会出现乱码。有些浏览器(如 360 浏览器)会设置 GBK 为默认编码，则你需要设置为。</div>
+    <div id='b'>注意：对于中文网页需要使用声明编码，否则会出现乱码。有些浏览器(如 360 浏览器)会设置 GBK 为默认编码，则你需要设置为。</div>
+    <div id='c'>注意：对于中文网页需要使用声明编码，否则会出现乱码。有些浏览器(如 360 浏览器)会设置 GBK 为默认编码，则你需要设置为。</div>
+</div>
+</body>
+</html>

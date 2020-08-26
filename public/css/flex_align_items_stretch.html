@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒布局测试</title>
+    <style>
+        #container { display: flex; width: 600px; align-items: stretch; }
+        #a, #b, #c { flex-grow: 1; width: 150px; }
+        #a { background-color: orange; width: 100px; font-size: 12px; }
+        #b { background-color: yellow; width: 150px; font-size: 24px; }
+        #c { background-color: limegreen; width: 200px; font-size: 36px; }
+    </style>
+</head>
+<body>
+<div id='container'>
+    <div id='a'>ExampleA</div>
+    <div id='b'>ExampleB</div>
+    <div id='c'>ExampleC</div>
+</div>
+</body>
+</html>
