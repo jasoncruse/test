@@ -1,0 +1,27 @@
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  /* 下列定义只适用于内嵌，无法单独定义，再说了，单独定义也无意义 */
+  font: {
+    family: Helvetica, sans-serif;
+    size: 18px;
+    weight: bold;
+  }
+
+  text:{
+    align: center;
+    transform: lowercase;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,11 @@
+@import "reset";
+/*
+注意：包含文件时不需要指定文件后缀，Sass 会自动添加后缀 .scss。
+此外，你也可以导入 CSS 文件。
+导入后我们就可以在主文件中使用导入文件内的变量。
+*/
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: $myColor;
+}
