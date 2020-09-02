@@ -9,3 +9,7 @@ body {
   font-size: 18px;
   color: $myColor;
 }
+
+header {
+  @import "beimport";
+}

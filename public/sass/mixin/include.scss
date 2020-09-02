@@ -53,3 +53,12 @@ h1 { @include sexy-border(blue, 2in); }
 .myBox {
   @include transform(rotate(20deg));
 }
+
+
+@mixin property-var($property, $value) { // 属性名不可用变量？
+  font-size: $value
+}
+
+.test {
+  @include property-var(font-size, 30px)
+}
