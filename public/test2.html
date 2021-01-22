@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function() {
+            // document.body.addEventListener('mousedown', function(e){ console.log('mousedown'); e.preventDefault(); e.stopPropagation(); }, false);
+            // document.body.addEventListener('mouseup', function(e){ console.log('mouseup'); e.preventDefault(); e.stopPropagation(); }, false);
+            document.body.addEventListener('contextmenu', function(e){ 
+                console.log('contextmenu'); e.preventDefault(); e.stopPropagation();
+            }, false);
+            document.cookie = 'pagename=test2';
+            document.cookie = 'name=jason';
+            document.cookie = 'max-age=1800';
+            alert(document.cookie);
+        }
+    </script>
+</head>
+<body>
+    test
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="./js/main.js"></script>
+    <script>
+        window.onload = function() {
+            // document.body.addEventListener('mousedown', function(e){ console.log('mousedown'); e.preventDefault(); e.stopPropagation(); }, false);
+            // document.body.addEventListener('mouseup', function(e){ console.log('mouseup'); e.preventDefault(); e.stopPropagation(); }, false);
+            document.body.addEventListener('contextmenu', function(e){
+                console.log('contextmenu'); e.preventDefault(); e.stopPropagation();
+            }, false);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="console.log(1), console.log(2)">test</button>
+    <a id='lk' href="https://example.com/comments/1">first</a>
+    <a id='lk' href="javascript: void();">second</a>
+    <a id='lk' href="javascript: void();">third</a>
+</body>
+</html>

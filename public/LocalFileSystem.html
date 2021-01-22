@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local File System</title>
+    <script>
+        requestFileSystem(TEMPORARY, 50 * 1024 * 1024, function(fs) {
+            // do something
+        }, function (e) {
+            console.error(e);
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
